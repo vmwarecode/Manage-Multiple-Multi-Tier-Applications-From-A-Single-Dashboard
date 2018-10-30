@@ -1,0 +1,459 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1540568215242,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "1a06a14d-c4ff-454b-a835-aa243b5209f6",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Tier 1 Applications",
+      "rank": 118,
+      "shared": false,
+      "temporary": false,
+      "userId": "87a15df6-df0b-4b3b-be18-9c5e69ed78e3",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "4ddb3d37-846d-4d72-931d-e24323b24501",
+            "widgetIdReceiver": "8a681529-eddc-4366-a15b-5bf3cb1e7583"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "8a681529-eddc-4366-a15b-5bf3cb1e7583",
+            "widgetIdReceiver": "f38f836f-eb4b-46e1-b218-9f4ff1139d8d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f38f836f-eb4b-46e1-b218-9f4ff1139d8d",
+            "widgetIdReceiver": "ef96d7b8-71fd-472f-87a5-c5ae9145a02d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "8a681529-eddc-4366-a15b-5bf3cb1e7583",
+            "widgetIdReceiver": "933439b9-b579-498e-b32c-1ea1a608e015"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 0,
+                     "id": "extModel51874-1",
+                     "isStringMetric": false,
+                     "label": "",
+                     "link": "",
+                     "metricKey": "Super Metric|sm_6e2e2209-1bf7-4625-b9b8-2fd927c71994",
+                     "metricName": "Super Metric|Ops. Multi-tier Application Health",
+                     "metricUnitId": null,
+                     "orangeBound": 50,
+                     "redBound": 25,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Tiered Applications",
+                     "unit": "",
+                     "yellowBound": 75
+                  }],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": true},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": false},
+               "showMetricUnit": {"showMetricUnit": false},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": false},
+               "title": "Tier 1 Applications",
+               "valueSize": 24,
+               "visualTheme": 3
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 153,
+            "id": "4ddb3d37-846d-4d72-931d-e24323b24501",
+            "title": "Tier 1 Applications",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Super Metric|sm_a825d30e-e879-4a87-bee0-6cfd4c8a3330",
+               "metricLabel": "",
+               "metricName": "Super Metric|Ops. App-Tier Health",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "children",
+               "orangeBound": 50,
+               "paginationNumber": 15,
+               "redBound": 25,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:1_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Which Tiers Have Issues?",
+               "undefined": "Super Metric|Ops. App-Tier Health",
+               "yellowBound": 75
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 1,
+               "y": 4
+            },
+            "height": 552,
+            "id": "8a681529-eddc-4366-a15b-5bf3cb1e7583",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_1a06a14d-c4ff-454b-a835-aa243b5209f6_8a681529-eddc-4366-a15b-5bf3cb1e7583",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "Which Tiers Have Issues?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Super Metric|sm_8b3b71f5-82f6-4053-bdb8-a46a7ca9347c",
+               "metricLabel": "",
+               "metricName": "Super Metric|Ops. VM KPI",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "children",
+               "orangeBound": 50,
+               "paginationNumber": 15,
+               "redBound": 25,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:2_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Which VMs in Tier Have Issues?",
+               "undefined": "Super Metric|Ops. VM KPI",
+               "yellowBound": 75
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 5,
+               "y": 4
+            },
+            "height": 552,
+            "id": "f38f836f-eb4b-46e1-b218-9f4ff1139d8d",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_1a06a14d-c4ff-454b-a835-aa243b5209f6_f38f836f-eb4b-46e1-b218-9f4ff1139d8d",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "Which VMs in Tier Have Issues?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5794-1",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|costopPct",
+                        "metricName": "CPU|Co-stop",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5794-2",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|readyPct",
+                        "metricName": "CPU|Ready",
+                        "metricUnitId": "%",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5794-3",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|usage_average",
+                        "metricName": "CPU|Usage",
+                        "metricUnitId": "%",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5794-4",
+                        "isStringMetric": false,
+                        "metricKey": "guest|mem.free_latest",
+                        "metricName": "Guest|Free Memory",
+                        "metricUnitId": "kb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "KB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5794-5",
+                        "isStringMetric": false,
+                        "metricKey": "guest|page.inRate_latest",
+                        "metricName": "Guest|Page In Rate per second",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5794-6",
+                        "isStringMetric": false,
+                        "metricKey": "mem|host_contentionPct",
+                        "metricName": "Memory|Contention",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5794-8",
+                        "isStringMetric": false,
+                        "metricKey": "virtualDisk:Aggregate of all instances|totalLatency",
+                        "metricName": "Virtual Disk:Aggregate of all instances|Total Latency",
+                        "metricUnitId": "msec",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "ms",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "VM KPI"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 9,
+               "y": 4
+            },
+            "height": 552,
+            "id": "ef96d7b8-71fd-472f-87a5-c5ae9145a02d",
+            "states": [
+               {
+                  "key": "permMetricChart_widget_1a06a14d-c4ff-454b-a835-aa243b5209f6_ef96d7b8-71fd-472f-87a5-c5ae9145a02d",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_1a06a14d-c4ff-454b-a835-aa243b5209f6_ef96d7b8-71fd-472f-87a5-c5ae9145a02d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_1a06a14d-c4ff-454b-a835-aa243b5209f6_ef96d7b8-71fd-472f-87a5-c5ae9145a02d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_1a06a14d-c4ff-454b-a835-aa243b5209f6_ef96d7b8-71fd-472f-87a5-c5ae9145a02d",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "VM KPI",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 102400,
+                     "thresholds": {
+                        "colors": [
+                           "#00ff00",
+                           "#00ff00",
+                           "#888800",
+                           "#ff0000"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "guest|mem.free_latest",
+                     "value": "Guest|Free Memory (KB)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREClusterComputeResource",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Cluster Compute Resource",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:3_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Size by RAM, Color by Free RAM",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:2_::_",
+                  "sizeBy": {
+                     "metricKey": "mem|guest_provisioned",
+                     "value": "Memory|Total Capacity (KB)"
+                  },
+                  "solidColoring": true,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "VMs in App",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 12,
+               "x": 1,
+               "y": 14
+            },
+            "height": 324,
+            "id": "933439b9-b579-498e-b32c-1ea1a608e015",
+            "states": [{
+               "key": "perm_HeatMap_widget_1a06a14d-c4ff-454b-a835-aa243b5209f6_933439b9-b579-498e-b32c-1ea1a608e015",
+               "value": "o%3A"
+            }],
+            "title": "VMs in App",
+            "type": "Heatmap"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "Container",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "Application Tier"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      },
+      {
+         "adapterKindKey": "Container",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Tiered Applications"
+      }
+   ]},
+   "uuid": "89a7c68f-e95b-4d00-9b66-faf1231d750d"
+}

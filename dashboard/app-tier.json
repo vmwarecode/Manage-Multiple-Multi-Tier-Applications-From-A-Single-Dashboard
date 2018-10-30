@@ -1,0 +1,1 @@
+{"a825d30e-e879-4a87-bee0-6cfd4c8a3330":{"resourceKinds":[{"resourceKindKey":"Application Tier","adapterKindKey":"Container"}],"modificationTime":0,"name":"Ops. App-Tier Health","formula":"Avg(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=Super Metric|sm_8b3b71f5-82f6-4053-bdb8-a46a7ca9347c, depth=1})"}}
